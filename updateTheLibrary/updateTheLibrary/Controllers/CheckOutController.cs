@@ -53,5 +53,10 @@ namespace updateTheLibrary.Controllers
             return db.Books.Where(b => b.IsCheckedOut == true);
         }
 
+        //get all available books
+        public IQueryable<Book> GetAvailableBooks()
+        {
+            return db.Books.Where(b => b.IsCheckedOut == false);
+        }
     }
 }
