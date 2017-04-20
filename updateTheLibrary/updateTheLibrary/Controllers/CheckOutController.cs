@@ -28,6 +28,8 @@ namespace updateTheLibrary.Controllers
             else
             {
                 book.IsCheckedOut = true;
+                book.LastCheckedOutDate = DateTime.Now;
+                book.DueBackDate = DateTime.Now.AddDays(10);
             }
             return book;
         }
@@ -43,6 +45,7 @@ namespace updateTheLibrary.Controllers
             else
             {
                 book.IsCheckedOut = false;
+                book.DueBackDate = null;
             }
             return book;
         }
