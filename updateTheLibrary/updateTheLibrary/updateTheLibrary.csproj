@@ -194,6 +194,14 @@
     <Compile Include="Migrations\201704201811146_Firstie.Designer.cs">
       <DependentUpon>201704201811146_Firstie.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201704202359371_nextie.cs" />
+    <Compile Include="Migrations\201704202359371_nextie.Designer.cs">
+      <DependentUpon>201704202359371_nextie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201704210048097_ohman.cs" />
+    <Compile Include="Migrations\201704210048097_ohman.Designer.cs">
+      <DependentUpon>201704210048097_ohman.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Book.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -271,6 +279,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201704201811146_Firstie.resx">
       <DependentUpon>201704201811146_Firstie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704202359371_nextie.resx">
+      <DependentUpon>201704202359371_nextie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704210048097_ohman.resx">
+      <DependentUpon>201704210048097_ohman.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

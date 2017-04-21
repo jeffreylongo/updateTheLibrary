@@ -17,6 +17,12 @@ namespace updateTheLibrary.Controllers
     {
         private DataContext.DataContext db = new DataContext.DataContext();
 
+        // GET: 
+        public IQueryable<Book> GetBooks()
+        {
+            return db.Books;
+        }
+
         //check out book
         public Book CheckOut(int id)
         {

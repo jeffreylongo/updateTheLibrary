@@ -77,3 +77,5 @@ C:\Users\jefflongo\tiy\week-6\day-4\updateTheLibrary\updateTheLibrary\updateTheL
 C:\Users\jefflongo\tiy\week-6\day-4\updateTheLibrary\updateTheLibrary\updateTheLibrary\obj\Debug\updateTheLibrary.pdb
 C:\Users\jefflongo\tiy\week-6\day-4\updateTheLibrary\updateTheLibrary\updateTheLibrary\obj\Debug\updateTheLibrary.Migrations.Firstie.resources
 C:\Users\jefflongo\tiy\week-6\day-4\updateTheLibrary\updateTheLibrary\updateTheLibrary\obj\Debug\updateTheLibrary.csproj.GenerateResource.Cache
+C:\Users\jefflongo\tiy\week-6\day-4\updateTheLibrary\updateTheLibrary\updateTheLibrary\obj\Debug\updateTheLibrary.Migrations.nextie.resources
+C:\Users\jefflongo\tiy\week-6\day-4\updateTheLibrary\updateTheLibrary\updateTheLibrary\obj\Debug\updateTheLibrary.Migrations.ohman.resources
